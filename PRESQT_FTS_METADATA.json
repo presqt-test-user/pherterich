@@ -1,0 +1,59 @@
+{
+    "allKeywords": [],
+    "actions": [
+        {
+            "id": "45d82804-8a49-4056-9c72-b2e5673d0feb",
+            "details": "PresQT Transfer from OSF to GitHub",
+            "actionDateTime": "2022-01-12 19:56:14.935132+00:00",
+            "actionType": "resource_transfer_in",
+            "sourceTargetName": "osf",
+            "sourceUsername": "Prometheus",
+            "destinationTargetName": "github",
+            "destinationUsername": "presqt-test-user",
+            "keywords": {},
+            "files": {
+                "created": [
+                    {
+                        "destinationPath": "/pherterich/chicken-egg-cffhackday-0.8.zip",
+                        "destinationHashes": {},
+                        "failedFixityInfo": [
+                            {
+                                "NewGeneratedHash": "475c5138d88208ab7c5d498a7fb2c01b",
+                                "algorithmUsed": "md5",
+                                "reasonFixityFailed": "Either the destination did not provide a hash or fixity failed during upload."
+                            }
+                        ],
+                        "title": "chicken-egg-cffhackday-0.8.zip",
+                        "sourceHashes": {
+                            "md5": "475c5138d88208ab7c5d498a7fb2c01b",
+                            "sha256": "13e0b30d029c3d5ccbe130d18e3c684edfaf308ea6cc4c4c22b8a765496dd029"
+                        },
+                        "sourcePath": "/chicken-egg/osfstorage/pherterich/chicken-egg-cffhackday-0.8.zip",
+                        "extra": {
+                            "id": "6137df1128b37600277cdda6",
+                            "parent_project_id": "sthgb",
+                            "endpoint": "https://api.osf.io/v2/files/6137df1128b37600277cdda6/",
+                            "download_url": "https://files.osf.io/v1/resources/sthgb/providers/osfstorage/6137df1128b37600277cdda6",
+                            "upload_url": "https://files.osf.io/v1/resources/sthgb/providers/osfstorage/6137df1128b37600277cdda6",
+                            "delete_url": "https://files.osf.io/v1/resources/sthgb/providers/osfstorage/6137df1128b37600277cdda6",
+                            "last_touched": null,
+                            "date_modified": "2021-09-07T21:52:17.071109Z",
+                            "current_version": 1,
+                            "date_created": "2021-09-07T21:52:17.071109Z",
+                            "provider": "osfstorage",
+                            "path": "/6137df1128b37600277cdda6",
+                            "current_user_can_comment": true,
+                            "guid": null,
+                            "checkout": null,
+                            "tags": [],
+                            "size": 5272
+                        }
+                    }
+                ],
+                "updated": [],
+                "ignored": []
+            }
+        }
+    ],
+    "extra_metadata": {}
+}
